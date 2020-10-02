@@ -1,4 +1,4 @@
-package com.klayzz.designpattern.strategy.sortalg;
+package com.klayzz.designpattern.behavior.strategy.sortalg;
 
 public class QuickSort implements ISortAlg {
     @Override

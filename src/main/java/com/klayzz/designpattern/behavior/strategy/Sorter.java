@@ -1,7 +1,7 @@
-package com.klayzz.designpattern.strategy;
+package com.klayzz.designpattern.behavior.strategy;
 
-import com.klayzz.designpattern.strategy.factory.SortAlgFactory;
-import com.klayzz.designpattern.strategy.sortalg.*;
+import com.klayzz.designpattern.behavior.strategy.factory.SortAlgFactory;
+import com.klayzz.designpattern.behavior.strategy.sortalg.*;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package com.klayzz.designpattern.strategy.sortalg;
+package com.klayzz.designpattern.behavior.strategy.sortalg;
 
 public class ConcurrentExternalSort implements ISortAlg {
     @Override

@@ -1,6 +1,6 @@
-package com.klayzz.designpattern.strategy;
-import com.klayzz.designpattern.strategy.factory.SortAlgFactory;
-import com.klayzz.designpattern.strategy.sortalg.ISortAlg;
+package com.klayzz.designpattern.behavior.strategy;
+import com.klayzz.designpattern.behavior.strategy.factory.SortAlgFactory;
+import com.klayzz.designpattern.behavior.strategy.sortalg.ISortAlg;
 
 import java.io.File;
 import java.util.ArrayList;
