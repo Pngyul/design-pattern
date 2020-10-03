@@ -7,7 +7,7 @@ import com.klayzz.designpattern.creation.fatory.simplefactory.parser.impl.XmlRul
 import com.klayzz.designpattern.creation.fatory.simplefactory.parser.impl.YamlRuleConfigParser;
 
 /**
- * 每次调用都要创建一个新的parser对象
+ * 把一推的if-else放到工厂类中，每次调用都要创建一个新的parser对象
  */
 public class RuleConfigParserFactory {
     public static IRuleConfigParser createParser(String configFormat) {

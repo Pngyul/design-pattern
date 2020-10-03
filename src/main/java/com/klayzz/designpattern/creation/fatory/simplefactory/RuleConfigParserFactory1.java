@@ -10,7 +10,6 @@ import com.klayzz.designpattern.creation.fatory.simplefactory.parser.impl.YamlRu
 import java.util.HashMap;
 import java.util.Map;
 
-
 /**
  * 对象可复用时，结合单例模式
  * 节省内存，事先缓存parser对象
