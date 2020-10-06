@@ -1,11 +1,14 @@
-package com.klayzz.designpattern.behavior.strategy;
-import com.klayzz.designpattern.behavior.strategy.factory.SortAlgFactory;
-import com.klayzz.designpattern.behavior.strategy.sortalg.ISortAlg;
+package com.klayzz.designpattern.behavior.strategy.nornal;
+import com.klayzz.designpattern.behavior.strategy.nornal.factory.SortAlgFactory;
+import com.klayzz.designpattern.behavior.strategy.nornal.sortalg.ISortAlg;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *彻底去掉if-else
+ */
 public class Sorter1 {
     private static final long GB = 1000 * 1000 * 1000;
     private static final List<AlgRange> algs = new ArrayList<>();

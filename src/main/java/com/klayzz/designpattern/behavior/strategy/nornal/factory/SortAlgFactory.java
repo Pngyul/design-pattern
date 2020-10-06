@@ -1,7 +1,7 @@
-package com.klayzz.designpattern.behavior.strategy.factory;
+package com.klayzz.designpattern.behavior.strategy.nornal.factory;
 
 
-import com.klayzz.designpattern.behavior.strategy.sortalg.*;
+import com.klayzz.designpattern.behavior.strategy.nornal.sortalg.*;
 
 import java.util.HashMap;
 import java.util.Map;
